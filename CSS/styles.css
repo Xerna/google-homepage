@@ -1,0 +1,86 @@
+#navbar{
+    margin: 2rem auto;
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1rem;
+}
+#list{
+    display: flex;
+    align-items: center;
+}
+#menu-icon{
+    width: 1.5rem;
+    padding-left: 1rem;
+}
+#profile-icon{
+    width: 3rem;
+    border-radius: 50%;
+}
+input:focus{
+    outline: 0;
+}
+img{
+    width: 100%;
+}
+input{
+    border: none;
+}
+li{
+    display: inline-block;
+    padding-left: 1rem;
+}
+ul,li,a{
+text-decoration: none;
+color: #555;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo{
+    width: 20rem;
+
+}
+#searchbar{
+    width: 40rem;
+    height: 2.5rem;
+    display: flex;
+    border-radius: 4rem;
+    border: #999 solid 1px;  
+    align-items: center;
+    justify-content: space-around;
+}
+#bar{
+    width:35rem;
+    height: 2rem; 
+    padding: 0;
+    font-size: 1.6rem;   
+}
+#searchbar:hover{
+    box-shadow:10px 10px 20px #BBBBBB;
+}
+#mag-glass{
+    width: 1.2rem;
+}
+#options{
+    width: 22rem;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+}
+.button{
+    width: 8.5rem;
+    height: 1rem;
+    background-color: #EEEEEE;
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+.button:hover{
+    cursor:pointer ;
+    border: 1px solid #AAAAAA;
+}
