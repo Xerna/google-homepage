@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
 #navbar{
     margin: 2rem auto;
     width: 95%;
     display: flex;
     justify-content: flex-end;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 #list{
     display: flex;
@@ -83,4 +87,16 @@ color: #555;
 .button:hover{
     cursor:pointer ;
     border: 1px solid #AAAAAA;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    height: 3rem;
+    width: 95%;
+    font-size: 0.8rem;   
 }
